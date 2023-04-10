@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to bottom, #4e54c8, #999df6, #b8bbf5 );
+    background-attachment: fixed;
+}
+.container {
+    background-color: rgba(134, 163, 248, 0.3);
+    position: absolute;
+    border-radius: 40px;
+    height: 90%;
+    top: 5%;
+    bottom: 5%;
+    left: 15%;
+    right: 15%;
+    margin: auto;
+    max-width: 70%;
+    max-height: 90%;
+    overflow-y: scroll;
+     
+}
+.container img {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    max-width: 40%;
+    max-height: 40%;
+  } 
+form{
+    margin: 5%;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+
+ 
